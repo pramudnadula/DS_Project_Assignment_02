@@ -9,6 +9,7 @@ import AddHall from './Components/Hall/AddHall';
 import ViewOne from './Components/Movie/ViewOne';
 import Addshow from './Components/Show/Addshow';
 import Booking from './Components/Show/Booking';
+import Qr from './Components/Qr/Qr';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path='/view/:id' exact component={ViewOne} />
       <Route path='/addshow' exact component={Addshow} />
       <Route path='/booking/:id' exact component={Booking} />
+      <Route path='/qr' exact component={Qr} />
     </BrowserRouter>
 
 
