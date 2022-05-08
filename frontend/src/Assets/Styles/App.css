@@ -1,4 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
+}
+
+.movie_item {
+    height: 200px !important;
 }

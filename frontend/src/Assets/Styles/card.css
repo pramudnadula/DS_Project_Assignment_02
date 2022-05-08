@@ -1,0 +1,44 @@
+.movie-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgb(17, 17, 17);
+    cursor: pointer;
+    margin: 20px 15px;
+    position: relative;
+    transition: all 1s;
+
+}
+
+.movie-card:hover {
+    box-shadow: 0px 10px 20px #000000;
+    transform: scale(1.08);
+
+}
+
+.movie-poster {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+
+.m_row {}
+
+.movie-info {}
+
+.movie-title {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    margin-bottom: 38px;
+}
+
+.btn-watch {
+    font-weight: 700;
+    background-color: #005dff;
+    padding: 8px 44px;
+    border-radius: 50px;
+    border: 3px solid transparent;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+}
